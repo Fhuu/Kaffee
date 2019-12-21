@@ -1,17 +1,24 @@
-body, html {
-    height: 100%;
-}
-html {
-    background: rgb(120, 50,0);
-    height: 100%;
-}
-
 body {
     background: url(../image/imageedit_1_6079767771.png);
+    height: 100%;
 }
 
 #buttons {
     padding-bottom: 100px;
+    padding-top: 5px;
+    top: 0;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+#logo{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    
 }
 
 #about-button-div, #menu-button {
@@ -32,6 +39,51 @@ body {
     top: 100px;
 }
 
+#highlights {
+    padding: 5px;
+}
+
+#initial {
+    background: rgba(255,255,255,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1em;
+    border-radius: 15px;
+}
+
+#pull-down-button {
+    font-weight: bold;
+    font-size: 2.25em;
+}
+
+.highlight-post {
+    padding: 5vh 8px 5vh 8px;
+    width: 100%;
+    background: white;
+    margin-bottom: 1em;
+    border-radius: 15px;
+}
+
+.highlight-photos  {
+   width: 100%;
+   background-color: none;
+}
+
+.highlight-photo{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 #facebook-account {
     color: #4267B2;
     opacity: 1;
@@ -40,7 +92,7 @@ body {
     margin-right: 0;
 }
 
-#instagra-account {
+#instagram-account {
     color: #8a3ab9;
     opacity: 1;
     font-size: 32px;
@@ -50,8 +102,7 @@ body {
 
 #about-div {
     position: relative;
-    background: #ddc1bd;
-    opacity: 0.8;
+    background: #d1c3b7aa;
     border: black 2px solid;
     padding: 5px;
     width: inherit;
